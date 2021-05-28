@@ -21,8 +21,9 @@ The application uses MySQL Database, in order to create in and run in Docker:
 ```use database library;```
 5. Create table users and insert first librarian there
 
-```create table users (
-	user_id bigint not null auto_increment,
+```
+create table users (
+    user_id bigint not null auto_increment,
     email varchar(255),
     first_name varchar(255),
     last_name varchar(255),
@@ -31,4 +32,5 @@ The application uses MySQL Database, in order to create in and run in Docker:
     status varchar(255),
     primary key (user_id)
  ) engine=InnoDB;
- insert into users values('1', 'libararian@email.com', 'Denys', 'Shyshliannykov', '$2y$12$fYjVQP4rG5wJvQxhf6zk8.5ZhdAWmgl9rGpnrrfpTqAWaHX2A4aNa', 'LIBRARIAN', 'ACTIVE');```
+ insert into users values('1', 'libararian@email.com', 'Denys', 'Shyshliannykov', '$2y$12$fYjVQP4rG5wJvQxhf6zk8.5ZhdAWmgl9rGpnrrfpTqAWaHX2A4aNa', 'LIBRARIAN', 'ACTIVE');
+ ```
