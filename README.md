@@ -14,13 +14,13 @@ The application uses MySQL Database, in order to create in and run in Docker:
 ```docker run  --name ms -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password mysql```
 2. Open new terminal
 ```docker exec -it ms bash```
-
+3. Connect to MySQL server
 ```mysql -u root -ppassword```
-3. Create database called library
+4. Create database called library
 ```create database library;```
-4. Go to this database
+5. Go to this database
 ```use database library;```
-5. Create table users and insert first librarian there
+6. Create table users and insert first librarian there
 
 ```
 create table users (
