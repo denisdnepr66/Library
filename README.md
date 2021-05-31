@@ -19,7 +19,7 @@ The application uses MySQL Database, in order to create in and run in Docker:
 4. Create database called library
 ```create database library;```
 5. Go to this database
-```use database library;```
+```use library;```
 6. Create table users and insert first librarian there
 
 ```
